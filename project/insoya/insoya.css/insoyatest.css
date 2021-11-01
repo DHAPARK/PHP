@@ -1,0 +1,101 @@
+table,th,tr,td{border-collapse:collapse;}
+
+#container{width:1500px;height:1000px;margin:auto;}
+/* 일단은 위 상단 메뉴들부터 정리하자 */
+/* header부분의 headerMenu부분으로 정하고 인소야탓컴,게임정보,메이플커뮤니티를 만든다. */
+/* 객체는 각각 큰 header 안의 headerMenu라는 div 내에 div1,2,3,4이렇게 정한다 */
+
+/* 모든 li들에게 주는 스타일태그 */
+li{list-style: none;}
+
+a{text-decoration: none;color:black;}
+/* 모든 div들을 관장하는 태그 */
+div{border:1px solid black;}
+
+header{width:100%;height:6.5%;position: relative;left:0px;}
+
+#headerMenu{height:100%;background-image:url(../images/headerMenu_black_background.JPG);z-index: 0;}
+/* headerMenu부분에서 이미 height의 7프로를 사용함 */
+#headerMenu ul {padding-left:0;margin-left:0;width:100%;height:100%}
+#headerMenu ul li a:first-child{border-left:0%;padding-left:0%;margin-right: 5%;}
+#headerMenu ul li {line-height:200%;}
+#headerMenu ul li a{margin-right:5%;float:left;color:white;text-decoration:none;}
+#headerMenu #advertiseImg{clear:both;float:right;}
+
+
+
+
+
+/*headerunderMenu시작*/
+/*headerunderMenu의 메이플토크~~버그악용/불법프로그램 신고까지 진행했음.*/
+#headerunderMenu{width:100%;height:5.5%;border-left:none;border-right:none;}
+#headerunderMenu ul li{float:left;margin-right: 20px;}
+#headerunderMenu ul li a {color:black;text-decoration:none;font-weight:bold;}
+/*일단 headerunderMenu의 끝*/
+
+
+/*loginMenuBar로그인 로그아웃메뉴바 시작*/
+#loginMenuBar{width:100%;height:5.5%;border-right:none;border-top:none;border-left:none;}
+#loginMenuBar div{padding:0px;margin:0px;}
+#loginMenuBar #SomeMenu{width:60%;height:100%;float:left;border-bottom:none;border-left:none;border-top:none;}
+#loginMenuBar #logInOut{width:13%;height:100%;float:right;border-bottom:none;border-top:none;border-right:none;}
+#loginMenuBar #SomeMenu ul li a{float:left;margin:auto;color:black;text-decoration:none;}
+#loginMenuBar #logInOut ul li a{float:left;margin:auto;color:black;text-decoration:none;}
+#loginMenuBar #logInOut ul li{float:left;}
+#loginMenuBar #logInOut ul li::after{clear:both;}
+/*lobinMenuBar로그인 로그아웃메뉴바 끝*/
+
+
+
+/*컨테이너 내부 모든 내용들 시작*/
+#contentsInContainer{width:90%;height:70%;margin:30px auto;}
+#contentsInContainer table{width:100%;height:100%;border-collapse:collapse;}
+#contentsInContainer table th{height:15%;}
+#contentsInContainer table #cic_th1{background-color:#0080ff;opacity:0.7;background-size:cover;border:none;}
+#contentsInContainer table #cic_th2{background-color:#0080ff;opacity:0.7;
+background-size:cover;border:none;}
+#contentsInContainer table th,td{border:1px solid #444444;}
+#contentsInContainer table table tr:first-child{text-align:center;}
+#contentsInContainer table table tr td{height:9%;}
+#contentsInContainer #contentsInContainer_Write_Form textarea{margin:5%;}
+#contentsInContainer table #cic_tr1_td1_addinfo{width:10%;height:5%;}
+#contentsInContainer form{margin:5%;}
+/*나중에 없앨 표 테두리 지금은 구분때문에 필요
+
+#contentsInContainer table{}
+*/
+
+
+/*컨테이너 내부 모든 내용들 끝*/
+
+
+
+/* view_공용의 글보기 에서 css설정 */
+#View_Container{width:80%;height:70%;border:1px solid black;}
+
+
+/* view_공용의 글보기 에서 css설정 끝*/
+
+
+
+
+
+
+/* board_공용_contentsInContainer */
+
+#board_공용_contentsInContainer{width:80%;height:70%;margin:30px auto;}
+
+#board_공용_contentsInContainer table{width:100%;margin:0 auto;border-collapse:collapse;}
+/* #board_공용_contentsInContainer table th{height:5%;} */
+#board_공용_contentsInContainer p{text-align:center;}
+#board_공용_contentsInContainer input{float:right;}
+/*
+#board_공용_contentsInContainer table #cic_th1{background-color:#0080ff;opacity:0.7;background-size:cover;}
+#board_공용_contentsInContainer table #cic_th2{background-color:#0080ff;opacity:0.7;
+background-size:cover;} */
+#board_공용_contentsInContainer table th,td{border:1px solid #444444;}
+#board_공용_contentsInContainer table table tr:first-child{text-align:center;}
+/* #board_공용_contentsInContainer table table tr td{height:5px;} */
+#board_공용_contentsInContainer #contentsInContainer_Write_Form textarea{margin:5%;}
+/* #board_공용_contentsInContainer table #cic_tr1_td1_addinfo{width:10%;height:5%;} */
+#board_공용_contentsInContainer form{margin:5%;}

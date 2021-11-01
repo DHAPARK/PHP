@@ -1,0 +1,53 @@
+#container{width:1500px;height:1000px;margin:0 auto;}
+
+/* 일단은 위 상단 메뉴들부터 정리하자 */
+/* header부분의 headerMenu부분으로 정하고 인소야탓컴,게임정보,메이플커뮤니티를 만든다. */
+/* 객체는 각각 큰 header 안의 headerMenu라는 div 내에 div1,2,3,4이렇게 정한다 */
+
+/* 모든 li들에게 주는 스타일태그 */
+li{list-style: none;}
+
+
+/* 모든 div들을 관장하는 태그 */
+div{border:1px solid black;}
+
+header{width:100%;height:6.5%;position: relative;left:0px;}
+#headerMenu{height:100%;background-image:url(../images/headerMenu_black_background.JPG);z-index: 0;}
+/* headerMenu부분에서 이미 height의 7프로를 사용함 */
+#headerMenu ul {padding-left:0;margin-left:0;width:100%;height:100%}
+#headerMenu ul li a:first-child{border-left:0%;padding-left:0%;margin-right: 5%;}
+#headerMenu ul li {line-height:200%;}
+#headerMenu ul li a{margin-right:5%;float:left;color:white;text-decoration:none;}
+#headerMenu #advertiseImg{clear:both;float:right;}
+
+
+
+
+
+/*headerunderMenu시작*/
+/*headerunderMenu의 메이플토크~~버그악용/불법프로그램 신고까지 진행했음.*/
+#headerunderMenu{width:100%;height:5.5%;}
+#headerunderMenu ul li{float:left;margin-right: 20px;}
+#headerunderMenu ul li a {color:black;text-decoration:none;font-weight:bold;}
+/*일단 headerunderMenu의 끝*/
+
+
+/*loginMenuBar로그인 로그아웃메뉴바 시작*/
+#loginMenuBar{width:100%;height:5.5%;}
+#loginMenuBar div{padding:0px;margin:0px;}
+#loginMenuBar #SomeMenu{width:60%;height:100%;float:left;}
+#loginMenuBar #logInOut{width:13%;height:100%;float:right;}
+#loginMenuBar #SomeMenu ul li a{float:left;margin:auto;color:black;text-decoration:none;}
+#loginMenuBar #logInOut ul li a{float:left;margin:auto;color:black;text-decoration:none;}
+#loginMenuBar #logInOut ul li{float:left;}
+#loginMenuBar #logInOut ul li::after{clear:both;}
+
+#loginArea{text-align:center;width:100%;height:700px;}
+/*lobinMenuBar로그인 로그아웃메뉴바 끝*/
+
+
+/* Regist_Input_List회원가입 박스 css 시작 */
+#Regist_Input_List{width:70%;height:70%;margin:5% 15%;text-align:center;}
+#Regist_Input_List_Incontent{width:40%;height:90%;margin:0 auto;text-align:left;}
+
+/* Regist_Input_List회원가입 박스 css 끝 */
